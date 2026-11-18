@@ -1,0 +1,16 @@
+{
+  "name": "tg-ads-manager",
+  "description": "TG Ads Manager for Claude: manage your Telegram Ads cabinets, ads, statistics and budgets from a conversation.",
+  "owner": {
+    "name": "TG Ads Manager",
+    "url": "https://tgadsmanager.uz"
+  },
+  "plugins": [
+    {
+      "name": "tg-ads-manager",
+      "source": "./plugins/tg-ads-manager",
+      "description": "Check, create and change your Telegram Ads through TG Ads Manager: statistics, ads, CPM, daily limits and ad budgets.",
+      "category": "marketing"
+    }
+  ]
+}
