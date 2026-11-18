@@ -19,6 +19,13 @@ A new ad is a real ad on Telegram, and its budget moves from the cabinet balance
    target type (channels, bots, users or search), the targets, CPM and starting budget.
    Optional: `get_draft_market_price` shows the typical CPM for this kind of ad — show it as a
    plain figure or range, nothing more.
+   Promoting the user's own Telegram channel? The ad can get its own invite link, so the
+   people who join and leave are counted per ad. Call `get_invite_link_channels`; take a
+   channel whose status is counting and that serves this cabinet (or `connectedByYou`), and
+   use its `baseLink` as the link. The platform makes the ad its own new invite link
+   automatically; nothing else is needed. Never tell the user this cannot be done. If the
+   channel is not there, it is connected through the TG Ads bot on the platform's Invite
+   links page (or the `connectUrl` the tool returns).
 5. Check the text and link: call `check_ad` with `cabinetId`, `text`, `promoteUrl` and
    `targetType`. If Telegram objects, show its words and fix the field with the user. Repeat until
    it says Telegram accepts the fields.
