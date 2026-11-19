@@ -1,13 +1,15 @@
 {
   "name": "tg-ads-manager",
   "displayName": "TG Ads Manager",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Check, create and change your Telegram Ads through TG Ads Manager: statistics, ads, CPM, daily limits and ad budgets.",
   "author": {
-    "name": "TG Ads Manager",
+    "name": "Meridians Marketing",
     "url": "https://tgadsmanager.uz"
   },
   "homepage": "https://tgadsmanager.uz",
+  "privacyPolicyUrl": "https://tgadsmanager.uz/privacy",
+  "icon": ".claude-plugin/icon.png",
   "license": "MIT",
   "keywords": ["telegram", "telegram-ads", "advertising", "marketing", "statistics"]
 }
